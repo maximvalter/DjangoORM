@@ -15,9 +15,6 @@
 ### Запуск:
 ```bash
 pip install -r requirements.txt
-python manage.py makemigrations
-python manage.py migrate
-python manage.py import_phones
 python manage.py runserver
 ```
 
@@ -30,8 +27,5 @@ python manage.py runserver
 ### Запуск:
 ```bash
 pip install -r requirements.txt
-python manage.py makemigrations
-python manage.py migrate
-python manage.py loaddata fixtures/books.json
 python manage.py runserver
 ```
